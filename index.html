@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum de Alex El Místico</title>
+   
+</head>
+<body>
+    <header>
+        <h1>Currículum de Alex El Místico</h1>
+        <img src="imagen/perfil.jpg" alt="perfil" width="600px">
+        <figcaption>Alex El Mistico</figcaption>
+    </header>
+    <div class="container">
+        <section id="quien-es">
+            <h2>¿Quién es?</h2>
+            <p>Alex El Místico es un destacado mago y aventurero con habilidades excepcionales en la manipulación de energías místicas y encantamientos. Con una pasión por el descubrimiento y la magia ancestral, Alex ha viajado por todo el mundo en busca de secretos arcanos y ha ayudado a resolver problemas mágicos complejos.</p>
+        </section>
+
+        <section id="Video">
+            <h2>Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mfm0VHQJZxE?si=T5acl6iA_T_TDD15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        
+        <section id="competencias">
+            <h2>Competencias</h2>
+            <ul>
+                <li>Maestría en Hechizos y Encantamientos</li>
+                <li>Control y Manipulación de Energías Místicas</li>
+                <li>Conocimientos Avanzados en Alquimia</li>
+                <li>Resolución de Problemas Mágicos y Esotéricos</li>
+                <li>Habilidad en el Uso de Artefactos Mágicos</li>
+            </ul>
+        </section>
+
+        <section id="experiencia-laboral">
+            <h2>Experiencia Laboral</h2>
+            <div>
+                <h3>Consejero Mágico en la Corte de Eldoria</h3>
+                <p><strong>Fechas:</strong> Enero 2020 - Presente</p>
+                <p>Responsable de la resolución de disputas mágicas y el asesoramiento en temas esotéricos para la corte real. Desarrollo de hechizos personalizados y asesoramiento en la creación de artefactos mágicos.</p>
+            </div>
+            <div>
+                <h3>Guardia del Templo de la Sabiduría</h3>
+                <p><strong>Fechas:</strong> Junio 2015 - Diciembre 2019</p>
+                <p>Protección del templo y sus secretos antiguos. Coordinación con otros magos para mantener el equilibrio mágico y proteger los textos sagrados.</p>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div>
+                <h3>Creación del Amuleto de la Fortuna</h3>
+                <p>Diseño y creación de un amuleto mágico que proporciona protección contra energías negativas y atrae buena suerte. El amuleto ha sido muy valorado por nobles y aventureros por igual.</p>
+                <figure>
+                    <img src="imagen/Amuleto de la Fortuna.avif" alt="Amuleto de la Fortuna" width="300px">
+                    <figcaption>Amuleto de la Fortuna</figcaption>
+                </figure>
+            </div>
+            <div>
+                <h3>Restauración del Libro de los Hechizos Perdidos</h3>
+                <p>Recuperación y restauración de un antiguo libro de hechizos que había sido perdido durante siglos. El proyecto implicó el trabajo con antiguos pergaminos y técnicas de restauración mágica avanzadas.</p>
+                <figure>
+                    <img src="imagen/Libro de Hechizos.jpg" alt="Libro de Hechizos" width="300px">
+                    <figcaption>Libro de Hechizos</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="preguntas-frecuentes">
+            <h2>Preguntas Frecuentes</h2>
+            <details>
+                <summary>¿Cuál es tu hechizo favorito?</summary>
+                <p>Mi hechizo favorito es el "Hechizo del Guardián", que crea una barrera protectora alrededor de un área específica. Es increíblemente útil para proteger a las personas y los lugares importantes.</p>
+            </details>
+            <details>
+                <summary>¿Cómo te mantienes actualizado con las últimas tendencias en magia?</summary>
+                <p>Participo regularmente en conferencias mágicas y estudio antiguos textos y grimorios para mantenerme al tanto de las últimas técnicas y descubrimientos en el campo de la magia.</p>
+            </details>
+            <details>
+            <summary>¿Dónde has viajado para tus aventuras mágicas?</summary>
+                <p>He viajado a lugares como las Montañas Nebulosas, el Desierto de Arena Mágica y la Ciudad Subterránea de los Elfos. Cada uno de estos lugares ofrece desafíos únicos y conocimientos valiosos.</p>
+            </dl>
+            </details>
+        </section>
+
+        <form action="/" method="post">
+            <fieldset>
+                <legend> Informacion del contacto </legend>
+                <div role="contentinfo">
+                    <label> Nombre:
+                        <input type="text" placeholder="Escribe tu nombre" required>
+                    </label>
+                </div>
+                <div role="contentinfo">
+                    <label> Correo:
+                        <input type="email" placeholder="Escribe tu Correo 📧" required>
+                    </label>
+                </div>
+                <div role="contentinfo">
+                    <label> Fecha de la cita :
+                        <input type="datetime-local" equired>
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend> Informacion adicional </legend>
+                <div role="contentinfo">
+                    <label> Telefono:
+                        <input type="tel" placeholder="809-000-0000" required pattern="[0-9]{10}">
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend> Otros? </legend>
+                <div>
+                    <label for="why"> Razones para contactarme... </label>
+                    <select name="why" id="why">
+                        <option value="1"> Crear un Amuleto </option>
+                        <option value="2"> Restaurar un libro de Hechizos </option>
+                        <option value="3"> Trabajo </option>
+                        <option value="3"> Mas información </option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="terminos"> Acepta los terminos? </label>
+                    <input type="checkbox" name="terminos" id="terminos" required>
+                </div>
+
+                <div>
+                    <datalist id="lunguages">
+                        <option value="Java">
+                        <option value="Python">
+                        <option value="JavaScript">
+                        <option value="Node.js">
+                    </datalist>
+
+                    <label for="lenguaje"> Con que leja te puedo ayudar?
+                        <input type="text" list="lunguages" id="lenguaje" name="lenguaje">
+                    </label>
+                </div>
+            </fieldset>
+
+            <button> Enviar informacion </button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 DevDygarcia. Todos los derechos reservados.</p>
+      </footer>
+</body>
+</html>
