@@ -88,7 +88,7 @@
       
         <form action="/" method="post">
             <fieldset>
-            <legend> <h2>Informacion del contacto </h2></legend>
+            <legend> <h3>Informacion del contacto </h3></legend>
             <div role="contentinfo">
                     <label> Nombre:
                         <input type="text" placeholder="Escribe tu nombre" required>
@@ -107,7 +107,7 @@
             </fieldset>
 
             <fieldset>
-                <legend> Informacion adicional </legend>
+                <legend> <h3>Informacion adicional </h3></legend>
                 <div role="contentinfo">
                     <label> Telefono:
                         <input type="tel" placeholder="809-000-0000" required pattern="[0-9]{10}">
@@ -116,32 +116,21 @@
             </fieldset>
 
             <fieldset>
-                <legend> Otros? </legend>
-                <div>
-                    <label for="why"> Razones para contactarme... </label>
-                    <select name="why" id="why">
-                        <option value="1"> Trabajo de exploración</option>
-                        <option value="2"> Más información </option>
+                 <legend> <h3>Servicios </h3> </legend>
+                 <div>
+                    <label for="what"> Qué servicio deseas? </label>
+                    <select name="what" id="what">
+                        <option value="1"> Crear un Amuleto </option>
+                        <option value="2"> Restaurar un libro de Hechizos </option>
+                        <option value="3"> Trabajo de exploración</option>
+                        <option value="4"> Más información </option>
                     </select>
                 </div>
-
-                <div>
-                    <label for="what"> Qué servicio deseas? </label>
-                    <select name="service" id="service">
-                        <option> value="1"> Crear un Amuleto </option>
-                        <option> value="2"> Restaurar un libro de Hechizos </option>
-                    </select>
-    
                 <div>
                     <label for="terminos"> Acepta los terminos? </label>
                     <input type="checkbox" name="terminos" id="terminos" required>
                 </div>
-                </div>
-                <div>
-                    <label for="lenguaje"> Con que te puedo ayudar?
-                        <input type="text" list="lunguages" id="lenguaje" name="lenguaje">
-                    </label>
-                </div>
+                
             </fieldset>
             <br>
             <button> Enviar informacion </button>
